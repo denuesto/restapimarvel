@@ -1,7 +1,7 @@
 # restapimarvel
-spring boot rest api marvel with h2 and consume from angular
+Project rest api marvel build with framework Spring boot, h2 and consumption from Angular.
 
-## Comenzando 
+## How to start 
 The project consists of 3 modules:
 Backend in springboot 
 frontend in Angular
