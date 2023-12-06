@@ -1,0 +1,31 @@
+h1{
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0px 0px 16px 0px;
+    width: 400px;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0px 0px 10px 0px;
+}
+
+
+i{
+    color: #ee3025;
+    margin: 0px 20px 0px 20px;
+}
+
+.primary-red{
+    background-color: #ee3025;
+    color: #ffffff;
+    border-radius:4px;
+}
+
+
+.primary-blue{
+    background-color: #084d8c;
+    color: #ffffff;
+    border-radius:4px;
+}

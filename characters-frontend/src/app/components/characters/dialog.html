@@ -1,0 +1,17 @@
+
+<h1 mat-dialog-title>{{this.data.message}}</h1>
+<div mat-dialog-content>
+    <div class="d-flex m-t-20">
+        <div class="w-40">
+            <p><strong>{{this.data.details.name}} </strong></p>
+        </div>
+        <div class="w-60">
+            <p>Description: {{this.data.details.description}}</p>
+            <p> <img src="{{this.data.details.thumbnail.path}}.{{this.data.details.thumbnail.extension}}"
+                style="width:200px"> </p>
+        </div>
+    </div>
+</div>
+<div mat-dialog-actions class="flex-end">
+     <button mat-raised-button color="primary" [mat-dialog-close]="true">Aceptar</button>
+</div>
